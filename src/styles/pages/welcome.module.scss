@@ -1,0 +1,40 @@
+@import "../_shared/colors";
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.myName {
+  font-family: "DejaVu Sans";
+  margin-top: 20px;
+}
+
+.myText {
+  margin-top: 50px;
+  max-width: 360px;
+  color: #848484;
+  text-align: justify;
+  span {
+    margin-right: 5px;
+    color: #3c3c3c;
+    font-weight: bolder;
+  }
+  a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: red;
+  }
+}

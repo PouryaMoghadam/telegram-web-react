@@ -1,0 +1,10 @@
+@import "../_shared/colors";
+
+.welcomeButton {
+  margin-top: 100px;
+  color: $text-white;
+  background-color: $welcome-blue;
+  width: 251px;
+  height: 89px;
+  border-radius: 35px;
+}

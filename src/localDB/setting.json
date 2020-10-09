@@ -1,0 +1,21 @@
+{
+  "general": {
+    "full-name": "Telegram Web",
+    "short-name": "Telegram",
+    "logo": "/data/general/main-logo.png",
+    "description": "This software is licensed under GNU GPL version 3.",
+    "about": "Official free messaging app based on Telegram API for speed and security.",
+    "version": "0.7.0",
+    "change-log": "https://github.com/zhukov/webogram/blob/master/CHANGELOG.md",
+    "github": "https://github.com/zhukov/webogram",
+    "twitter": "https://twitter.com/telegram_web"
+  },
+  "menu": [
+    {
+      "id": "",
+      "title": "",
+      "icon": "",
+      "link": ""
+    }
+  ]
+}

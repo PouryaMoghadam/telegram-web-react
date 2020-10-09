@@ -1,0 +1,15 @@
+@import "../_shared/colors";
+
+.main {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 25px;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-color: $bg-white;
+}

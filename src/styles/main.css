@@ -1,0 +1,49 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Inter, sans-serif;
+    background-color: #e7ebf0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    outline:none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+button:focus {outline:0;}
+
+input {
+    outline:none;
+}
+input::-moz-focus-inner {
+    border: 0;
+}
+input:focus {outline:0;}
+
+* {
+    box-sizing: border-box;
+}
+
+
+[aria-label] {
+    display: inline-block;
+    width: 40px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
