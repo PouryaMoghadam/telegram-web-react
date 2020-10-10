@@ -4,7 +4,7 @@ const AppContext = createContext();
 
 class AppProvider extends Component {
     state = {
-        seeWelcome: true,
+        seeWelcome: false,
         currentChatId: null,
         currentUserInfo: null,
     };
