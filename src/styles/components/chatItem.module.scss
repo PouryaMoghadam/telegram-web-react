@@ -1,0 +1,35 @@
+@import "../_shared/colors";
+
+.chatItemSendOtherWrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    max-width: 70%;
+    padding: 10px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: $border-gray;
+  }
+}
+
+.chatItemSendMeWrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    max-width: 70%;
+    padding: 10px;
+    text-align: right;
+    border-radius: 15px;
+    background-color: $welcome-blue;
+    height: auto;
+    color: $text-white;
+  }
+}

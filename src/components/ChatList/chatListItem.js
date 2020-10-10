@@ -16,7 +16,7 @@ function ChatListItem(props) {
         type: data.type,
         username: (userInfo != null ? userInfo.username : data.username),
         profile: (userInfo != null ? userInfo.profile : data.profile),
-        lastSeen: (userInfo.lastSeen !== null ? userInfo.lastSeen : 0),
+        lastSeen: (userInfo !== null ? userInfo.lastSeen : 0),
         subscribers: (data.subscribers !== null ? data.subscribers : 0)
     }
     const itemChat = chats.find(item => item.chatOwner === data.userId);
@@ -37,7 +37,7 @@ function ChatListItem(props) {
                 </span>
             </div>
             <div className={styles.chatListItemActivityInfo}>
-                <span>{data.lastActivity}</span>
+                <span>{messages[messages.length - 1].sendDate}</span>
                 {(data.unreadMsg !== "0" ? (
                     <span>{data.unreadMsg}</span>
                 ) : null)}

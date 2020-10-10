@@ -1,14 +1,15 @@
-import React from 'react';
-import {useParams} from "react-router-dom";
+import React, {useContext} from 'react';
 import styles from '../styles/pages/home.module.scss'
 import MainLayout from "../components/_layout/mainLayout";
 import {Row, Col} from 'react-bootstrap';
 import SearchBox from "../components/_shared/Inputs/searchBox";
 import ChatListWrapper from "../components/ChatList/chatListWrapper";
+import ChatBoxWrapper from "../components/ChatBox/chatBoxWrapper";
+import {AppContext} from "../contexts/AppContext";
 
 function Home(props) {
-
-    const params = useParams()
+    const AppContextData = useContext(AppContext);
+    const {currentChatId} = AppContextData;
     return (
         <MainLayout>
             <Row className='reset-around'>
@@ -18,8 +19,8 @@ function Home(props) {
                 </Col>
                 <Col lg={8}>
                     {
-                        (params.id !== undefined ? (
-                            <span>chat</span>
+                        (currentChatId !== null ? (
+                            <ChatBoxWrapper chatId={currentChatId}/>
                         ) :
                             <div className={styles.noChatSelect}>
                                 Please select a chat to start messaging
