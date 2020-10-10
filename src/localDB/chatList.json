@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1001",
+    "username": "Digikala | دیجیکالا",
+    "userId": "@digikala",
+    "type": "channel",
+    "profile": "/data/users/digikala-profile.jpeg",
+    "lastActivity": "Fri",
+    "unreadMsg": "10",
+    "subscribers": "127613",
+    "description": "کانال رسمی دیجیکالا در تلگرام www.digikala.com احراز هویت کانال در سامانه ساماندهی وزارت فرهنگ و ارشاد اسلامی: https://t.me/itdmcbot?start=digikala کد شامد: 1-2-700123-61-0-2"
+  },
+  {
+    "id": "1002",
+    "userId": "@nabedini",
+    "type": "personal",
+    "lastActivity": "Mon",
+    "unreadMsg": "2"
+  },
+  {
+    "id": "1003",
+    "username": "باشگاه خبرنگاران جوان",
+    "userId": "@yjcnewschannel",
+    "type": "channel",
+    "profile": "/data/users/yjc-profile.jpeg",
+    "lastActivity": "2:06 pm",
+    "unreadMsg": "0",
+    "subscribers": "826049",
+    "description": "The Official Telegram Channel Of WWW.YJC.IR WebSite. :small_orange_diamond: ما را در پیامرسانهای ایرانی با شناسه @YjcNewsChannel دنبال کنید. :small_blue_diamond: سوژههای خبریتان را به آدرس @ShahrvandYjc ارسال کنید."
+  },
+  {
+    "id": "1004",
+    "userId": "@reza_mirdamadi",
+    "type": "personal",
+    "lastActivity": "2:06 pm",
+    "unreadMsg": "0"
+  }
+]

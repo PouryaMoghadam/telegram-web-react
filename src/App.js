@@ -10,10 +10,10 @@ function App() {
     const {seeWelcome } = AppContextData;
     return (
         <>
-            <Route path="/" >
+            <Route exact path="/" >
                 {seeWelcome ? <Home showChat={false}/> : <Welcome />}
             </Route>
-            <Route path="/:id" >
+            <Route exact path="/:id" >
                 {seeWelcome ? <Home showChat={true}/> : <Welcome />}
             </Route>
         </>

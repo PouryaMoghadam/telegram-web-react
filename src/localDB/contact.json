@@ -1,0 +1,14 @@
+[
+  {
+    "username": "Navid Abedini",
+    "userId": "@nabedini",
+    "profile": "/data/users/navid-abedini.jpeg",
+    "lastSeen": "last seen recently"
+  },
+  {
+    "username": "Reza Mirdamadi",
+    "userId": "@reza_mirdamadi",
+    "profile": "/data/users/reza-mirdamadi.jpeg",
+    "lastSeen": "last seen long time ago ..."
+  }
+]
